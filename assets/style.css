@@ -1,1 +1,222 @@
 /* Copy your CSS code from CodePen below this point */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif !important;
+  }
+  
+  h1,
+  h2,
+  h4 {
+    color: #8b0023;
+    font-family: "Roboto", serif;
+    margin: 15px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-family: "Roboto", serif;
+  }
+  
+  h3 {
+    color: #3f0010;
+    font-family: "Roboto", serif;
+  }
+  
+  /* Menu */
+  
+  .menu {
+    text-align: center;
+  }
+  .menu-container {
+    margin: 0 auto;
+    max-width: 90% !important;
+    padding: 15px;
+  }
+  
+  .item,
+  .ingredients {
+    line-height: 1;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+  }
+  
+  .menu-sheet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  
+  .wraps-container,
+  .sides-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 20px;
+  }
+  
+  /* Navbar */
+  a {
+    text-decoration: none; /*removes hyperlinks */
+  }
+  ul {
+    list-style: none; /* removed bullets */
+  }
+  
+  .nav-container {
+    background-color: #ff9900;
+    height: 25px;
+    padding: 15px 5px;
+  }
+  
+  .navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .nav-links {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.2em;
+  }
+  
+  /* Mathmetician Favs & Footer */
+  .fav-images {
+    width: 250px;
+    height: 230px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer {
+    background-color: #ffb733;
+    padding: 40px 10px;
+  }
+  
+  .resize-icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  
+  .social-media-gallery {
+    align-items: center;
+  }
+  
+  .social-media-gallery a {
+    display: inline-block; /* removes lines from under X icon*/
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Parallax & Logo*/
+  #site-container {
+    background-image: url("https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+  }
+  
+  #site-header {
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  #logo-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #logo {
+    max-width: 250px !important;
+    width: 95%;
+    height: 300px !important;
+    border-radius: 80%;
+    border: 8px solid #b04b33;
+    margin-top: 5px;
+  }
+  
+  .resize-img {
+    width: 450px;
+    height: 380px;
+  }
+  
+  /* About Us & Mathmeticians Favs*/
+  .about-us,
+  .favs-container {
+    padding: 10px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  #favs {
+    padding: 15px;
+    background-color: #ffb733;
+  }
+  
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .img-gallery {
+    min-width: 250px;
+    border: 5px solid red;
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 3px;
+  }
+  
+  /* Location & Hours */
+  .location-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .location-img img {
+    width: 300px;
+    height: 280px;
+    padding: 15px;
+  }
+  
+  .address {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  
+  .hours-content li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 550px) {
+    .img-gallery {
+      margin-left: 50px;
+      padding: 10px;
+    }
+    .img-container {
+      width: 250px;
+    }
+  }
+  
